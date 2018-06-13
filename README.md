@@ -2,16 +2,16 @@
 
 ## REQUIRED DOWNLOADS
 The required download for openGL structure is Glew and FreeGlut to compliment the openGL system with assistance. These openGL extensions can be downloaded within visual studio’s manage packet segment or can be downloaded via Internet. Additional downloading libraries or extentions required are Boost/C++ and OpenMP. Simplified required downloads annotation is listed below:
-**Glew**
-**FreeGlut**
-**Boost C++**
-**OpenMP**
+ +**Glew**
+ +**FreeGlut**
+ +**Boost C++**
+ +**OpenMP**
 
 ## REQUIRED HEADINGS
 The required headings are on par with the required installation segments.
 The required headings have to be in order for it to work properly with openGL. The heading order is demonstrated below with the required downloaded assistance.
-**#include "GL\glew.h"**
-**#include "GL\freeglut.h"**
++**#include "GL\glew.h"**
++**#include "GL\freeglut.h"**
 
 ## OPENGL DRAWING CONCEPT(S)
 OpenGL uses polygon and vertex rendering to apply triangle shapes to compute complex objects as a drawn or rendered model(s). These concepts require additional knowledge of calculus and physics to demonstrate a 3D plain that involves <x,y,z> with optimal addition to t as time if needed.
