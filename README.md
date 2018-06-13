@@ -2,10 +2,10 @@
 
 ## REQUIRED DOWNLOADS
 The required download for openGL structure is Glew and FreeGlut to compliment the openGL system with assistance. These openGL extensions can be downloaded within visual studio’s manage packet segment or can be downloaded via Internet. Additional downloading libraries or extentions required are Boost/C++ and OpenMP. Simplified required downloads annotation is listed below:
- +**Glew**
- +**FreeGlut**
- +**Boost C++**
- +**OpenMP**
+ + **Glew**
+ + **FreeGlut**
+ + **Boost C++**
+ + **OpenMP**
 
 ## REQUIRED HEADINGS
 The required headings are on par with the required installation segments.
