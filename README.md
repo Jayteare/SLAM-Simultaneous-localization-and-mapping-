@@ -10,8 +10,8 @@ The required download for openGL structure is Glew and FreeGlut to compliment th
 ## REQUIRED HEADINGS
 The required headings are on par with the required installation segments.
 The required headings have to be in order for it to work properly with openGL. The heading order is demonstrated below with the required downloaded assistance.
-+**#include "GL\glew.h"**
-+**#include "GL\freeglut.h"**
+ + **#include "GL\glew.h"**
+ + **#include "GL\freeglut.h"**
 
 ## OPENGL DRAWING CONCEPT(S)
 OpenGL uses polygon and vertex rendering to apply triangle shapes to compute complex objects as a drawn or rendered model(s). These concepts require additional knowledge of calculus and physics to demonstrate a 3D plain that involves <x,y,z> with optimal addition to t as time if needed.
