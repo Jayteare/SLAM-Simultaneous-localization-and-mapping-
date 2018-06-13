@@ -1,9 +1,11 @@
 # SLAM CONCEPT STRUCTURE
 
 ## REQUIRED DOWNLOADS
-The required download for openGL structure is Glew and FreeGlut to compliment the openGL system with assistance. These openGL extensions can be downloaded within visual studio’s manage packet segment or can be downloaded via Internet. Simplified required downloads annotation is listed below:
+The required download for openGL structure is Glew and FreeGlut to compliment the openGL system with assistance. These openGL extensions can be downloaded within visual studio’s manage packet segment or can be downloaded via Internet. Additional downloading libraries or extentions required are Boost/C++ and OpenMP. Simplified required downloads annotation is listed below:
 **Glew**
-**FreeGlut
+**FreeGlut**
+**Boost C++**
+**OpenMP**
 
 ## REQUIRED HEADINGS
 The required headings are on par with the required installation segments.
@@ -16,10 +18,6 @@ OpenGL uses polygon and vertex rendering to apply triangle shapes to compute com
 
 ## DYNAMIC RENDERING
 Dynamic rendering will be a concept of visually placing static objects into the vertex grid to align with the incoming lidar data. The rendering of the dynamic structure or rather shape is coherent at its early stages as initial scale and accuracy is more abstract to follow. The dynamic rendering will be presented with variety of functions that will make up with original data rendering possible.
-
-**Example function:**
-vector<size_t>dynamic_render(size_t x, size_t y);
-vector<size_t>dynamic_scale(size_t x, size_t y);
 
 **Complimentary function:**
 void static_object(int object_index);
@@ -37,25 +35,9 @@ Scale accuracy and rendering would need to be discussed and measured throughout 
  
 Rendering in OpenGL can be active and translated through active files or pipelining of data from one source to another. Further research is required for drawing and rending active post-data rendering. Current additional rendering can be static and rough with initial prototype paradigm.
 
-## MAZE CONCEPT
-Initial concept suggestion of maze generation algorithm with additional maze solving algorithms. Since the environment will most likely generate a maze-like paradigm, similar solutions of solving the problem can be inherited through substitution.
-
-
-### Suggested Algorithms:
-
-Dijkstra's Algorithm 
-Prim-Jarnik Algorithm 
-BFS-DFS Algorithm 
-A-Star Algorithm 
-Additional Reading Material: 
-http://www.astrolog.org/labyrnth/algrithm.htm 
-
 ### Notes:
-
-viewFrustrumClipping; -Speed up rendering/camera 
-Jetson TX2- Model 
-Jetson TX2 – Has pascal architecture (research needed) 
-Schematics for NVIDIA – Under schematics in github  for 2018 
+Jetson TX2- Model
+CUDA Development for TX2
 
 ### Compile Notes:
 * export CPLUS_INCLUDE_PATH="$CPLUS_INCLUDE_PATH:/usr/include/python2.7/"
